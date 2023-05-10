@@ -396,6 +396,48 @@ nav {
   color: #b5614d;
 }
 
+.card__section{
+  width: 100%;
+  background-color: #F6F4EC;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.card__text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 33.3%;
+}
+
+.card__title,
+.card_description,
+.card__price{
+  font-weight: 400;
+font-size: 23px;
+line-height: 39px;
+text-transform: capitalize;
+color: #000000;
+margin-top: 15px;
+}
+
+.card__title span, 
+.card_description span,
+.card__price span{
+  color: #B45F4D;
+  font-weight: 600;
+}
+
+.card__price span{
+  font-size: 26px;
+}
+
 @media (min-width: 880px) {
   .logo {
     margin: 0 auto;
